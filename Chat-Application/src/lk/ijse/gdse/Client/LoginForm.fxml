@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="loginFormContext" prefHeight="465.0" prefWidth="507.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.Client.LoginFormController">
+   <children>
+      <ImageView fitHeight="173.0" fitWidth="168.0" layoutX="163.0" layoutY="51.0">
+         <image>
+            <Image url="@../assets/login.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUserName" layoutX="126.0" layoutY="300.0" prefHeight="37.0" prefWidth="219.0" promptText="User Name..." />
+      <Button fx:id="btnLogIn" layoutX="356.0" layoutY="300.0" mnemonicParsing="false" onAction="#userLoginOnAction" prefHeight="37.0" prefWidth="90.0" text="Log In" />
+   </children>
+</AnchorPane>
